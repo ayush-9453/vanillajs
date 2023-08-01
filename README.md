@@ -1,2 +1,1 @@
-# js
-palash is fucked
+
