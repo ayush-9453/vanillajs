@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>Simple Coffee Shop</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+        color: antiquewhite;
+      }
+
+      header {
+        background-color: black;
+        height: 50px;
+      }
+      .w {
+        color: white;
+        background-color: black;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      .item {
+        color: antiquewhite;
+        font-family: cursive;
+        text-decoration: none;
+        border: 1px solid black;
+        display: inline;
+        margin-left: 45px;
+      }
+      .item:hover {
+        border: 1px solid white;
+        border-radius: 5px;
+      }
+
+      body {
+        font-family: cursive, sans-serif;
+        background-color: rgb(228, 169, 65);
+      }
+
+      .book {
+        margin: 40px;
+        padding: 10px;
+      }
+
+      .book1 {
+        border: 1px solid black;
+        height: 150px;
+        width: 150px;
+      }
+      .image1 {
+        background-image: url("coffee1.jpeg");
+      }
+      .image2 {
+        background-image: url("coffee2.jpeg");
+      }
+      .image3 {
+        background-image: url("coffee3.jpeg");
+      }
+      .image4 {
+        background-image: url("coffee5.jpeg");
+      }
+      .image5 {
+        background-image: url("latte.jpeg");
+      }
+      .box {
+        background-color: white;
+      }
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 70px;
+        height: 400px;
+        padding: 5px;
+      }
+      footer{
+        margin-top: 10px;
+      }
+      .foot-panel{
+        background-color: black;
+         color: white;
+         height: 50px;
+          display: flex;
+         justify-content: center;
+          align-items: center;
+         font-size: 0.85rem;
+      }
+      .foot-panel1{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    font-weight: 100;
+    display: block;
+    font-size: 0.875rem;
+    margin-top:10px ;
+    color: #dddddd;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to the Simple Coffee Shop</h1>
+      <nav class="w">
+        <a href="#home" class="item">Home</a>
+        <a href="#band" class="item">Menu</a>
+        <a href="#contact" class="item">Book Table</a>
+        <a href="#about" class="item">About</a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="box">
+        <div class="book">
+          <div class="book1 image1"><p></p></div>
+          <h2>coffee1</h2>
+          <p>Price: 799</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="book">
+          <div class="book1 image2"></div>
+          <h2>coffee2</h2>
+          <p>Price: 799</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="book">
+          <div class="book1 image3"></div>
+          <h2>coffee3</h2>
+          <p>Price: 799</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="book">
+          <div class="book1 image4"></div>
+          <h2>coffee4</h2>
+          <p>Price: 799</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="foot-panel"><p>Back to the top</p> </div>
+        <div class="foot-panel1">
+            <ul>
+                <a>CORPORATE OFFICE</a>
+                <a>Coffee Culture,</a>
+                <a>10 Dimple Row House,</a>
+                <a>Besides Surat City Gymkhana,</a>
+                <a>Piplod,Surat – 395007, Gujarat,</a>
+                <a>INDIA.</a>         
+             </ul>
+        </div>
+    </footer>
+  </body>
+</html>
